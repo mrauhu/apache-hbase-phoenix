@@ -45,7 +45,7 @@ On GNU/Linux and macOS the fix applying automatically.
     > Example of connect using the `sqlline.py`:
     > 
     > ```
-    > docker-compose exec hbase python /opt/apache-phoenix-5.0.0-HBase-2.0-bin/sqlline.py hbase:2181:/hbase
+    > docker-compose exec hbase python /opt/apache-phoenix-5.0.0-HBase-2.0-bin/bin/sqlline.py hbase:2181:/hbase
     > ```
     > 
     > For an exit write `!quit` then press <kbd>Enter</kbd>.
